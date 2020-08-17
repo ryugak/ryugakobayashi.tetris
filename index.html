@@ -5,14 +5,28 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div class="l-main">
-    <div class="score">
-      <p class="scoreText">score</p>
-      <span id="scoreVal">0</span>
-    </div>
+  <div class="score">
+    <p class="scoreText">score</p>
+    <span id="scoreVal">0</span>
+  </div>
+  <div class="line">
+    <p class="lineText">line</p>
+    <span id ="lineVal">0</span>
+  </div>
+  <div class="rank">
+    <p class="rank__modal" id="modalShow">スコアランキング←click!!</p>
+    <div class="modal" id="modal" style="display: none;">
+      <div class="modal__content">
+        <p class="modalContent__head">ランキング</p>
+        <ul class="modalContent__list">
+          <li id="rankingFirst"></li>
+          <li id="rankingSecond"></li>
+          <li id="rankingThird"></li>
+        </ul>
+      </div>
+  </div>
   </div>
   <canvas id="can"></canvas>
   <script src="script.js"></script>
-  <!-- <script src="main.js"></script> -->
 </body>
 </html>
