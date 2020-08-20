@@ -152,7 +152,6 @@ const tetris = () => {
         rankingFirst.innerHTML = '1st. ' + ranking[0];
         rankingSecond.innerHTML = '2nd.' + ranking[1];
         rankingThird.innerHTML = '3rd.' + ranking[2];
-        modalShow.style.display = 'block';
       }
     };
     const checkMove = (mx, my, newTetro) => {//checkMove()の数字が引数
@@ -299,7 +298,6 @@ const tetris = () => {
     });
     start.addEventListener('click' , () => {
       startTetro();
-      modalShow.style.display = 'none';
     });
     stop.addEventListener('click', () => {
       window.alert('stop! click to start');
