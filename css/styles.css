@@ -1,16 +1,21 @@
+.l-main {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
 .score {
   display: flex;
-  font-size: 50px;
+  font-size: 30px;
 }
 .scoreText {
-  margin-right: 100px;
+  margin-right: 40px;
 }
 .line {
   display: flex;
-  font-size: 50px;
+  font-size: 30px;
 }
 .lineText {
-  margin-right: 100px;
+  margin-right: 72px;
 }
 .rank__modal {
   font-size: 20px;
@@ -43,4 +48,20 @@
 }
 .modalContent__list li:last-child {
   margin-bottom: 0;
+}
+.button {
+  width: 40px;
+  height: 40px;
+}
+.reload {
+  background-image: url(../img/リロードのフリーアイコン.jpeg);
+  background-size: contain;
+}
+.start {
+  background-image: url(../img/動画再生マークのアイコン.jpeg);
+  background-size: contain;
+}
+.stop {
+  background-image: url(../img/一時停止ボタン.jpeg);
+  background-size: contain;
 }
