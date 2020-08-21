@@ -7,14 +7,14 @@
   display: flex;
   font-size: 30px;
 }
-.scoreText {
+.score__text {
   margin-right: 25px;
 }
 .line {
   display: flex;
   font-size: 30px;
 }
-.lineText {
+.line__text {
   margin-right: 58px;
 }
 .rank__modal {
@@ -64,4 +64,7 @@
 .stop {
   background-image: url(../img/一時停止ボタン.jpeg);
   background-size: contain;
+}
+.pointer {
+  pointer-events: none;
 }
