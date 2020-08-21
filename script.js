@@ -19,9 +19,9 @@ const tetris = () => {
   rankingThird.innerHTML = '3rd.' + ranking[2];
   let gameSpeed = 800;
   let count = 0;
-  const score = document.getElementById('scoreVal');
+  const score = document.getElementById('score__val');
   let scoreVal = 0;
-  const line = document.getElementById('lineVal');
+  const line = document.getElementById('line__val');
   let lineVal = 0;
   const scoreRank = ranking;
   const fieldWidth = 10;
@@ -152,6 +152,7 @@ const tetris = () => {
         rankingFirst.innerHTML = '1st. ' + ranking[0];
         rankingSecond.innerHTML = '2nd.' + ranking[1];
         rankingThird.innerHTML = '3rd.' + ranking[2];
+        modalShow.classList.remove('pointer');
       }
     };
     const checkMove = (mx, my, newTetro) => {//checkMove()の数字が引数
@@ -298,6 +299,7 @@ const tetris = () => {
     });
     start.addEventListener('click' , () => {
       startTetro();
+      modalShow.classList.add('pointer');
     });
     stop.addEventListener('click', () => {
       window.alert('stop! click to start');
