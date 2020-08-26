@@ -17,6 +17,22 @@
 .line__text {
   margin-right: 58px;
 }
+.button {
+  width: 40px;
+  height: 40px;
+}
+.reload {
+  background-image: url(../img/リロードのフリーアイコン.jpeg);
+  background-size: contain;
+}
+.start {
+  background-image: url(../img/動画再生マークのアイコン.jpeg);
+  background-size: contain;
+}
+.stop {
+  background-image: url(../img/一時停止ボタン.jpeg);
+  background-size: contain;
+}
 .rank__modal {
   font-size: 20px;
 }
@@ -49,21 +65,8 @@
 .modalContent__list li:last-child {
   margin-bottom: 0;
 }
-.button {
-  width: 40px;
-  height: 40px;
-}
-.reload {
-  background-image: url(../img/リロードのフリーアイコン.jpeg);
-  background-size: contain;
-}
-.start {
-  background-image: url(../img/動画再生マークのアイコン.jpeg);
-  background-size: contain;
-}
-.stop {
-  background-image: url(../img/一時停止ボタン.jpeg);
-  background-size: contain;
+.gameText {
+  font-size: 14px;
 }
 .pointer {
   pointer-events: none;
